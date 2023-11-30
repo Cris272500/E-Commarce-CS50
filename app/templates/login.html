@@ -211,20 +211,20 @@
 						<div class="span4">
 							<div class="well">
 								{% if estado == 'success' %}
-									<div class="alert alert-block alert-sucess fade in">
-										<button type="button" class="close" data-dismiss="alert">×</button>
-										<strong>"Exito"</strong> {{ mensaje }}
-									</div>	
+								<div class="alert alert-block alert-sucess fade in">
+									<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>"Exito"</strong> {{ mensaje }}
+								</div>
 								{% elif estado == 'error' %}
-									<div class="alert alert-block alert-error fade in">
-										<button type="button" class="close" data-dismiss="alert">×</button>
-										<strong>"Error"</strong> {{ mensaje }}
-									</div>	
+								<div class="alert alert-block alert-error fade in">
+									<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>"Error"</strong> {{ mensaje }}
+								</div>
 								{% else %}
-									<div class="alert alert-block alert-info fade in">
-										<button type="button" class="close" data-dismiss="alert">×</button>
-										<strong>Llene los campos por favor</strong>
-									</div>
+								<div class="alert alert-block alert-info fade in">
+									<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>Llene los campos por favor</strong>
+								</div>
 								{% endif %}
 
 								<h5>CREAR TU CUENTA</h5><br />
@@ -232,25 +232,34 @@
 									<div class="control-group">
 										<label class="control-label" for="inputEmail0">Nombre</label>
 										<div class="controls">
-											<input class="span3" type="text" id="inputEmail0" placeholder="Nombre" name="nombre" required>
+											<input class="span3" type="text" id="inputEmail0" placeholder="Nombre"
+												name="nombre" required>
 										</div>
 									</div>
 									<div class="control-group">
 										<label class="control-label" for="inputEmail0">Correo electrónico</label>
 										<div class="controls">
-											<input class="span3" type="email" id="inputEmail0" placeholder="Email" name="correo" required>
+											<input class="span3" type="email" id="inputEmail0" placeholder="Email"
+												name="correo" required>
 										</div>
 									</div>
 									<div class="control-group">
 										<label class="control-label" for="inputEmail0">Contraseña</label>
 										<div class="controls">
-											<input class="span3" type="password" id="inputEmail0" placeholder="password" name="contra" required>
+											<input class="span3" type="password" id="inputEmail0" placeholder="password"
+												name="contra" required>
 										</div>
 									</div>
 									<div class="control-group">
-										<label class="control-label" for="inputEmail0">Dirección</label>
+										<label class="control-label" for="state">Dirección<sup>*</sup></label>
 										<div class="controls">
-											<input class="span3" type="text" id="inputEmail0" placeholder="Direccion" name="direcc" required>
+											<select id="state" name="direcc">
+												<option value="">-</option>
+												<option value="Managua">Managua</option>
+												<option value="villa el carmen">Villa El Carmen</option>
+												<option value="ciudad sandino">Ciudad Sandino</option>
+
+											</select>
 										</div>
 									</div>
 									<div class="controls">
@@ -260,26 +269,44 @@
 							</div>
 						</div>
 						<div class="span1"> &nbsp;</div>
+						<!--Iniciar sesion-->
 						<div class="span4">
 							<div class="well">
-								<h5>ALREADY REGISTERED ?</h5>
-								<form>
+								{% if estado == 'success_log' %}
+								<div class="alert alert-block alert-sucess fade in">
+									<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>"Exito"</strong> {{ mensaje }}
+								</div>
+								{% elif estado == 'error_log' %}
+								<div class="alert alert-block alert-error fade in">
+									<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>"Error"</strong> {{ mensaje }}
+								</div>
+								{% else %}
+								<div class="alert alert-block alert-info fade in">
+									<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>Si tiene cuenta, por favor inicie sesion</strong>
+								</div>
+								{% endif %}
+								<h5>INICIAR SESIÓN</h5>
+								<form action="/comprador_login" method="post">
 									<div class="control-group">
-										<label class="control-label" for="inputEmail1">Email</label>
+										<label class="control-label" for="inputEmail1">Correo</label>
 										<div class="controls">
-											<input class="span3" type="text" id="inputEmail1" placeholder="Email">
+											<input class="span3" type="text" id="inputEmail1" placeholder="Email"
+												name="email">
 										</div>
 									</div>
 									<div class="control-group">
-										<label class="control-label" for="inputPassword1">Password</label>
+										<label class="control-label" for="inputPassword1">Contraseña</label>
 										<div class="controls">
 											<input type="password" class="span3" id="inputPassword1"
-												placeholder="Password">
+												placeholder="Password" name="password">
 										</div>
 									</div>
 									<div class="control-group">
 										<div class="controls">
-											<button type="submit" class="btn">Sign in</button> <a
+											<button type="submit" class="btn">Ingresar</button> <a
 												href="forgetpass.html">Forget password?</a>
 										</div>
 									</div>
