@@ -1,5 +1,7 @@
 # Zandolex
 
+## Video Demo
+[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
 ## Descripciòn
 Zandolex es una plataforma de compra y venta en línea que conecta a compradores y vendedores. El proyecto fue creado por Zohary Mejía, Leonardo Bermúdez y Jorge Meza.
 
