@@ -1,10 +1,9 @@
 # Zandolex
 
-## Video demo:
+## Descripciòn
+Zandolex es una plataforma de compra y venta en línea que conecta a compradores y vendedores. El proyecto fue creado por Zohary Mejía, Leonardo Bermúdez y Jorge Meza.
 
- Zandolex es una plataforma de compra y venta en línea que conecta a compradores y vendedores. El proyecto fue creado por Zohary Leonardo y Jorge
-
-El objetivo de Zandolex es facilitar el comercio electrónico y hacer que sea más fácil para las personas encontrar lo que están buscando. La plataforma ofrece una amplia gama de productos y servicios, desde artículos de consumo hasta productos electrónicos y servicios profesionales.
+El objetivo de Zandolex es facilitar el comercio electrónico y hacer que sea más fácil para las personas encontrar lo que están buscando.
 
 Zandolex ofrece una serie de características que la hacen una plataforma atractiva para compradores y vendedores. Para los compradores, Zandolex ofrece una amplia selección de productos y servicios, así como un proceso de compra seguro y sencillo. Para los vendedores, Zandolex ofrece una plataforma fácil de usar para publicar anuncios y gestionar sus ventas.
 
@@ -15,8 +14,7 @@ Zandolex ofrece una serie de características que la hacen una plataforma atract
 Capacidad para comprar y poner en venta productos con dos tipos de intefaz para los usuarios(comprador y vendededor) de esta manera haciendo mas sencillo para el usuario el administrar sus compras y sus ventas.
 
 ## Descripciones Detalladas
-
-Pagina web de compra y venta de productos con diferentes categorias de productos y incluso categorizar el estado del producto en nuevos, semi-nuevos y usados ademas de una interfaz sencilla tanto para el vendedor como el comprador 
+Pagina web de compra y venta de productos con diferentes categorias de productos y incluso categorizar el estado del producto en: nuevos, semi-nuevos y usados ademas de una interfaz sencilla tanto para el vendedor como el comprador 
 
 ## Guia de instalacion
 Al este no ser mas que una pagina web lo unico que se necesita es el link para a entrar al sitio
