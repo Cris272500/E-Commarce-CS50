@@ -1,7 +1,9 @@
-# Zandolex
+![be245eb9-bffb-4230-b006-4cceeb8efaf5](https://github.com/Cris272500/E-Commarce-CS50/assets/138504525/947973a7-d204-439b-b810-a234aa285f95)
+# Zandolex   
+
 
 ## Video Demo
-[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/iCIs4IisnC4/0.jpg)](https://www.youtube.com/watch?v=iCIs4IisnC4)
 ## Descripciòn
 Zandolex es una plataforma de compra y venta en línea que conecta a compradores y vendedores. El proyecto fue creado por Zohary Mejía, Leonardo Bermúdez y Jorge Meza.
 
@@ -28,3 +30,6 @@ El boton de detalles de un producto no enviaba hacia los detalles de dicho produ
 Este proyecto se realizo usando las herrramientas de javascript, HTML, CSS, python ademas utilizamos sqlite para la creacion de las tablas para las bases de datos.
 
 ### Capturas de Pantalla
+
+![b4be31a2-b924-4110-ae57-bfe6a0ae59fa](https://github.com/Cris272500/E-Commarce-CS50/assets/138504525/5b5cb6a7-b0bc-4baf-8e3f-01e7775f266a)
+![737d7a0e-34b4-47e1-9380-cbe124564622](https://github.com/Cris272500/E-Commarce-CS50/assets/138504525/54a8a413-7369-4134-89b4-45118172e665)
