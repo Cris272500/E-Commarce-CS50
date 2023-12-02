@@ -1,8 +1,12 @@
 # Zandolex
 
-### Video demo:
+## Video demo:
 
-### A lo largo de los años los lugares de compra y venta de productos como pueden ser amazon, ebay, aliexpress e incluso el marketplace de facebook siempre han tenido algunos debido a la cantidad de requerimientos que pide dificulta a algunos usuarios el poder poner sus productos a la venta por lo tanto zandolex proporciona un espacio sencillo intuitivo y amigable con el usuario para que pueda realizar sus compras o ventas con suma facilidad.
+ Zandolex es una plataforma de compra y venta en línea que conecta a compradores y vendedores. El proyecto fue creado por Zohary Leonardo y Jorge
+
+El objetivo de Zandolex es facilitar el comercio electrónico y hacer que sea más fácil para las personas encontrar lo que están buscando. La plataforma ofrece una amplia gama de productos y servicios, desde artículos de consumo hasta productos electrónicos y servicios profesionales.
+
+Zandolex ofrece una serie de características que la hacen una plataforma atractiva para compradores y vendedores. Para los compradores, Zandolex ofrece una amplia selección de productos y servicios, así como un proceso de compra seguro y sencillo. Para los vendedores, Zandolex ofrece una plataforma fácil de usar para publicar anuncios y gestionar sus ventas.
 
 ## Estado del proyecto
  Finalizado
